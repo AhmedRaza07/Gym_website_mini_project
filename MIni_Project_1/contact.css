@@ -1,0 +1,64 @@
+body{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/bg4.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: auto 1025px;
+}
+.left{
+    /* border: 2px solid gray; */
+    display: inline-block; 
+    position: absolute;  
+    left: 65px;
+    top: 20px; 
+}
+.left div{
+    text-align: center;
+    font-weight: bold;  
+    font-size: 15px;
+}
+.mid{
+    /* border: 2px solid gray; */
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+
+}
+.right{
+    /* border: 2px solid gray; */
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+}
+.logo{
+    width: 95px;
+    filter: invert(100%);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(193, 209, 223);
+    text-decoration: underline;
+}
+.container{
+    /* border: 2px solid gray; */
+    width: 33%;
+    margin: 120px 65px;
+    padding: 75px;
+    border-radius: 25px;
+}
